@@ -7,7 +7,7 @@ ruby '2.7.1'
 gem 'rails', '~> 5.2.3'
 # Use Puma as the app server
 group :development, :test do
-  gem 'sqlite3'
+  gem 'pg'
 end
 
 group :production do
